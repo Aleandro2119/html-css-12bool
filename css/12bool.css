@@ -44,6 +44,11 @@
 	max-width: calc(100% / 12 * 5);
 }
 
+.col-6 {
+	flex-basis: calc(100% / 12 * 6);
+	max-width: calc(100% / 12 * 6);
+}
+
 .col-8 {
 	flex-basis: calc(100% / 12 * 8);
 	max-width: calc(100% / 12 * 8);
