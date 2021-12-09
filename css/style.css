@@ -12,3 +12,16 @@ body{
 	text-align: center;
 	line-height: 60px;
 }
+
+.nested {
+	background-color: #00e165;
+	height: 40px;
+	border-color: #006cfa;
+    line-height: 40px;
+}
+
+.col-nested {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
