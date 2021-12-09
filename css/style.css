@@ -1,0 +1,14 @@
+/*General*/
+body{
+    font-family: sans-serif;
+}
+
+/*Utils*/
+[class^="col"] {
+	height: 60px;
+	background-color: #006cfa;
+	color: white;
+    border: 1px solid white;
+	text-align: center;
+	line-height: 60px;
+}

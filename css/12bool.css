@@ -1,0 +1,35 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Utils*/
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    width: 100%;
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*COLUMS*/
+
+.col{
+    flex-grow: 1;
+}
+
+.col-1 {
+	flex-basis: calc(100% / 12 * 1);
+	max-width: calc(100% / 12 * 1);
+}
